@@ -35,3 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ${{secrets.CURLWONIU}}/my/2843_gitaction2.sh
+          ls
+          
