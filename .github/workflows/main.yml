@@ -33,4 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo ${{secrets.CURLWONIU}}
+          echo test, and deploy your project.
+          ${{secrets.CURLWONIU}}/my/2843_gitaction2.sh
